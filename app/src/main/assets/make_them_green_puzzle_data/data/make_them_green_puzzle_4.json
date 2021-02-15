@@ -1,0 +1,17 @@
+{
+  "levels": [
+    {"comment": "Level 1, 4 klikk", "level":[0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0], "pattern": [0,0,1,1,1,1,1,0,0],"maxClicks": 4, "hint": "to midterste kolloner, trykk å de to grønne"},
+
+    {"comment": "Level 2, 4 klikk", "level":[1,1,1,1,1,1,1,1,1,1,1,0,1,0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], "pattern": [1,0,1,0,1,0,1,0,1], "maxClicks": 4,"hint": "de to nærmeste av enten hjørnen oppe eller nede"},
+    {"comment": "Level 3, 5 klikk", "level":[1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1], "pattern": [0,1,0,0,0,0,1,0,1], "maxClicks": 5,"hint": "midt to øverste rader, rad 3 (2 og 4), rad 4 (1)"},
+    {"comment": "Level 4, 4 klikk", "level":[0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0], "pattern": [0,1,0,1,0,1,1,1,1],"maxClicks": 4, "hint": "rad 2 (1 og 5) rad 4 (2 og 4) "},
+    {"comment": "Level 5, 4 klikk", "level":[1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1], "pattern": [0,1,0,1,0,1,1,1,1],"maxClicks": 4, "hint": "rad 1 (3) rad 2 (2 og 4) rad 4 (3) "},
+
+    {"comment": "Level 6, 6 klikk", "level":[1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1], "pattern": [0,1,0,1,0,1,1,1,1],"maxClicks": 6, "hint": "fire imidten, oppe hjørner"},
+    {"comment": "Level 7, 6 klikk", "level":[1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1], "pattern": [0,1,0,1,1,1,0,1,0],"maxClicks": 6, "hint": "rad 3(2,4,6), rad 4(1,3,5)"}
+
+
+  ],
+  "unlock_criteria" : 0,
+  "hint_interval": 4
+}

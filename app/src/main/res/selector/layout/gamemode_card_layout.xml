@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:layout_rowWeight="1"
+    android:layout_columnWeight="1"
+    android:onClick="gameModeClick"
+    android:padding="7dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relative_layout"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </RelativeLayout>
+    <ProgressBar
+
+        android:layout_margin="3dp"
+        android:id="@+id/progress_bar"
+        android:layout_weight="1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:indeterminate="false"/>
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:textSize="24sp" />
+</LinearLayout>

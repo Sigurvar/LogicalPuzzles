@@ -1,0 +1,46 @@
+{
+  "levels": [
+    {"comment": "Level 1, 5 klikk", "level":[0,0,0,0,0,0,0,0,0], "pattern": [0,0,1,0,1,0,0,1,0], "maxClicks": 5},
+    {"comment": "Level 2, 3 klikk", "level":[0,0,1,1,1,0,0,0,0], "pattern": [1,0,0,1,1,0,0,0,1], "maxClicks": 3},
+    {"comment": "Level 2, 3 klikk", "level":[0, 0, 0, 1, 1, 1, 0, 1, 0], "pattern": [0,1,0,0,0,0,1,0,1], "maxClicks": 3},
+
+    {"comment": "Level 4, 4 klikk", "level":[0,0,0,0,0,1,0,1,0,0,1,1,0,1,1,0], "pattern": [1,1,0,1,1,0,0,0,1],"maxClicks": 4,"hint": "to imdten to i hjørnene"},
+    {"comment": "Level 5, 4 klikk", "level":[0,1,1,0,0,1,1,0,1,1,1,1,1,0,0,1], "pattern": [0,1,0,1,1,1,0,1,0],"maxClicks": 4,"hint": "en slags u"},
+    {"comment": "Level 6, 4 klikk", "level":[1,1,0,1,1,0,0,0,0,0,0,1,1,0,1,1], "pattern": [0,0,1,1,1,1,1,0,0],"maxClicks": 4, "hint": "diagonal"},
+    {"comment": "Level 7, 4 klikk", "level":[0,1,1,1,0,1,1,1,0,0,1,1,1,0,0,1], "pattern": [0,1,0,1,1,1,1,0,1],"maxClicks": 4, "hint": "diagonal"},
+    {"comment": "Level 8, 4 klikk", "level":[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1], "pattern": [0,1,0,0,1,0,1,0,0],"maxClicks": 4, "hint": "alle i først kollone"},
+    {"comment": "Level 9, 4 klikk", "level":[1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1], "pattern": [0,1,0,1,0,1,1,1,1],"maxClicks": 4, "hint": "alle hjørner"},
+
+    {"comment": "Level 10, 4 klikk", "level":[1,1,0,1,1,1,0,0,0,1,1,1,0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1], "pattern": [0,1,0,0,1,0,1,0,1], "maxClicks": 4, "hint": "4 nærmest midten"},
+    {"comment": "Level 11, 3 klikk", "level":[1,1,1,1,1,0,1,0,1,0,0,1,0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], "pattern": [1,1,1,0,1,0,1,0,1], "maxClicks": 3,"hint": "tre på midterste rad"},
+    {"comment": "Level 12, 4 klikk", "level":[1,1,0,1,1,0,1,1,1,0,0,1,1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1], "pattern": [1,1,1,0,1,0,1,0,1], "maxClicks": 4,"hint": "midten på hver side"},
+    {"comment": "Level 13, 5 klikk", "level":[1,1,0,0,1,1,0,0,0,1,0,0,0,1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1], "pattern": [1,1,1,0,1,0,1,0,1], "maxClicks": 5,"hint": "høyre opp diagonal"},
+    {"comment": "Level 14, 5 klikk", "level":[0,1,1,1,0,1,1,1,1,1,1,1,0,1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0], "pattern": [1,0,1,0,1,0,1,0,1], "maxClicks": 5,"hint": "senter pluss de 4 skråt opp og ned"},
+    {"comment": "Level 15, 2 klikk", "level":[1,1,1,1,1,0,1,1,1,0,0,0,1,0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1], "pattern": [1,0,1,1,1,1,1,0,1], "maxClicks": 2,"hint": "Høyre venstre fra senter"},
+    {"comment": "Level 16, 4 klikk", "level":[1,0,1,0,1,0,0,0,0,0,0,0,1,0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1], "pattern": [1,0,1,1,1,1,1,0,1], "maxClicks": 4,"hint": "alle rett linje fra senter"},
+    {"comment": "Level 17, 4 klikk", "level":[1,0,0,0,1,1,1,1,1,1,0,0,1,0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1], "pattern": [1,0,1,1,1,1,1,0,1], "maxClicks": 4,"hint": "midten på hver kant"},
+    {"comment": "Level 18, 4 klikk", "level":[0,1,1,1,0,0,0,1,0,0,1,1,1,1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0], "pattern": [1,0,1,1,1,1,1,0,1], "maxClicks": 4,"hint": "skråt ut fra senter "},
+    {"comment": "Level 19, 5 klikk", "level":[1,0,0,1,1,0,0,0,0,1,0,0,0,0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1], "pattern": [1,0,1,1,1,1,1,0,1], "maxClicks": 5,"hint": "diagonalen"},
+    {"comment": "Level 20, 4 klikk", "level":[1,0,1,0,1,0,1,0,1,0,1,0,1,0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1], "pattern": [1,0,1,0,1,0,1,0,1], "maxClicks": 4,"hint": "de 4 rundt senter"},
+    {"comment": "Level 21, 5 klikk", "level":[1,1,1,1,1,0,1,1,1,0,0,0,0,0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1], "pattern": [1,0,1,0,1,0,1,0,1], "maxClicks": 5,"hint": "langs midterste rad"},
+    {"comment": "Level 22, 5 klikk", "level":[1,1,0,1,1,1,0,1,0,1,0,1,0,1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1], "pattern": [1,0,1,0,1,0,1,0,1], "maxClicks": 5,"hint": "en av horisontalene"},
+    {"comment": "Level 23, 4 klikk", "level":[1,0,1,1,1,1,1,0,1,0,1,0,1,0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1], "pattern": [1,0,1,0,0,0,1,0,1], "maxClicks": 4,"hint": "en av de grønne per yterkant"},
+    {"comment": "Level 24, 4 klikk", "level":[1,0,1,0,1,0,1,1,1,0,1,1,1,1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1], "pattern": [1,0,1,0,0,0,1,0,1], "maxClicks": 4,"hint": "alle rett linje fra senter, næreste"},
+    {"comment": "Level 25, 3 klikk", "level":[1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1], "pattern": [0,1,0,0,0,0,1,0,1], "maxClicks": 3,"hint": "V med bunn i senter"},
+    {"comment": "Level 26, 5 klikk", "level":[1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1], "pattern": [0,1,0,0,0,0,1,0,1], "maxClicks": 4,"hint": "topp hjørner og rad 5 (2 og 4)"},
+    {"comment": "Level 27, 4 klikk", "level":[1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0], "pattern": [0,1,0,1,0,1,1,1,1],"maxClicks": 4, "hint": "hjørner i midterste ring"},
+    {"comment": "Level 28, 4 klikk", "level":[1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1], "pattern": [0,1,0,1,0,1,1,1,1],"maxClicks": 4, "hint": "rad 2 (2, 3 og 4) rad 4 (3) "},
+    {"comment": "Level 29, 5 klikk", "level":[1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1], "pattern": [0,1,0,1,0,1,1,1,1],"maxClicks": 5, "hint": "alle hjørner og midten "},
+
+    {"comment": "Level 30, 4 klikk", "level":[1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1], "pattern": [0,1,0,1,0,1,1,1,1],"maxClicks": 4, "hint": "col 2 (2 og 3), col 4(3 og 4)"},
+    {"comment": "Level 31, 3 klikk", "level":[1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1], "pattern": [1,1,1,1,1,1,1,1,1],"maxClicks": 3, "hint": "annen hver på diagonalen"},
+    {"comment": "Level 32, 3 klikk", "level":[1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1], "pattern": [1,1,1,1,1,1,1,1,1],"maxClicks": 10, "hint": "hele diagonalen"},
+    {"comment": "Level 33, 4 klikk", "level":[1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1], "pattern": [1,1,1,1,1,1,1,1,1],"maxClicks": 4, "hint": "en på hver side"},
+    {"comment": "Level 34, 4 klikk", "level":[1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1], "pattern": [1,1,1,1,1,1,1,1,1],"maxClicks": 4, "hint": "alle i midten"},
+    {"comment": "Level 35, 6 klikk", "level":[1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0], "pattern": [1,0,1,0,1,0,1,0,1],"maxClicks": 6, "hint":  "col 2 og 5 (1,3,5)"},
+    {"comment": "Level 36, 4 klikk", "level":[1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1], "pattern": [1,0,1,0,1,0,1,0,1],"maxClicks": 4, "hint":  "alle i midten"},
+    {"comment": "Level 37, 4 klikk", "level":[1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1], "pattern": [0,1,0,1,1,1,0,1,0],"maxClicks": 4, "hint": "rad 3(2,4), rad 5(3,5)"}
+  ],
+  "unlock_criteria" : 0,
+  "hint_interval": 6
+}

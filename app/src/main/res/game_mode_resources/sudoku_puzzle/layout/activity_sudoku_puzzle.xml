@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/standard_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="20">
+        <include layout="@layout/top_bar_for_game_modes"/>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12">
+
+            <TableLayout
+                android:id="@+id/main_table_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/sudoku_table_thick_border"
+                android:padding="2dp"
+                android:stretchColumns="*">
+
+                <TableRow>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <TableLayout style="@style/sudoku_number_table"
+                            android:id="@+id/table1">
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:tag="11"
+                                    android:id="@+id/id11"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:tag="12"
+                                    android:id="@+id/id12"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:tag="13"
+                                    android:id="@+id/id13"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:tag="21"
+                                    android:id="@+id/id21"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:tag="22"
+                                    android:id="@+id/id22"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:tag="23"
+                                    android:id="@+id/id23"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id31"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id32"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id33"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+                        </TableLayout>
+
+                        <TableLayout style="@style/sudoku_number_table"
+                            android:id="@+id/table2">
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id14"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id15"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id16"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id24"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id25"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id26"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id34"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id35"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id36"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+                        </TableLayout>
+
+                        <TableLayout style="@style/sudoku_number_table"
+                            android:id="@+id/table3">
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id17"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id18"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id19"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id27"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id28"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id29"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id37"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id38"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id39"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+                        </TableLayout>
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <TableLayout style="@style/sudoku_number_table"
+                            android:id="@+id/table4">
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id41"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id42"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id43"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id51"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id52"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id53"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id61"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id62"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id63"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+                        </TableLayout>
+
+                        <TableLayout style="@style/sudoku_number_table"
+                            android:id="@+id/table5">
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id44"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id45"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id46"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id54"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id55"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id56"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id64"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id65"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id66"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+                        </TableLayout>
+
+                        <TableLayout style="@style/sudoku_number_table"
+                            android:id="@+id/table6">
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id47"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id48"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id49"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id57"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id58"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id59"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id67"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id68"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id69"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+                        </TableLayout>
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <TableLayout style="@style/sudoku_number_table"
+                            android:id="@+id/table7">
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id71"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id72"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id73"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id81"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id82"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id83"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id91"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id92"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id93"
+                                    style="@style/sudoku_number_box"/>
+                            </TableRow>
+                        </TableLayout>
+
+                        <TableLayout style="@style/sudoku_number_table"
+                            android:id="@+id/table8">
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id74"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id75"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id76"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id84"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id85"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id86"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id94"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id95"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id96"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+                        </TableLayout>
+
+                        <TableLayout style="@style/sudoku_number_table"
+                            android:id="@+id/table9">
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id77"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id78"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id79"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RelativeLayout
+                                    android:id="@+id/id87"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id88"
+                                    style="@style/sudoku_number_box" />
+
+                                <RelativeLayout
+                                    android:id="@+id/id89"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+
+                            <TableRow>
+                                <RelativeLayout
+                                    android:id="@+id/id97"
+                                    style="@style/sudoku_number_box"/>
+                                <RelativeLayout
+                                    android:id="@+id/id98"
+                                    style="@style/sudoku_number_box"
+                                    />
+                                <RelativeLayout
+                                    android:id="@+id/id99"
+                                    style="@style/sudoku_number_box" />
+                            </TableRow>
+                        </TableLayout>
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+            <include layout="@layout/number_buttons" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

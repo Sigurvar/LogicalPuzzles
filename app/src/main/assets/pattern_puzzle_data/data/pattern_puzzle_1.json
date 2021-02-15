@@ -1,0 +1,10 @@
+{
+  "levels": [
+    {"comment": "Level 1", "level":[[6,2,2,2],[4,0,0,4],[null,1,2,3]],"ans" : 5, "maxPerRow": 3, "pattern":"a+b+c"},
+    {"comment": "Level 2", "level":[[3,5,3,1],[9,9,3,3],[null,8,4,2]],"ans" : 6, "maxPerRow": 3, "pattern":"a-b+c"},
+    {"comment": "Level 3", "level":[[5,1,2,3],[6,2,2,4],[null,1,1,5]],"ans" : 4, "maxPerRow": 3, "pattern":"b*c-a"},
+    {"comment": "Level 4", "level":[[16,8,6,4],[35,5,10,3],[null,12,3,2]],"ans" : 12, "maxPerRow": 3, "pattern":"(b-c)*a"}
+  ],
+  "unlock_criteria" : 0,
+  "hint_interval": 9
+}

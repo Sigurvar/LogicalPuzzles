@@ -1,0 +1,9 @@
+{
+  "levels": [
+    {"comment": "Level 1", "level":[1,4,2,3,0,null,null,null,null,11,null,null,null,null,null], "operator": "+","answer": [5,6,5,3,11,8,22,19,41]},
+    {"comment": "Level 2", "level":[3, null, null, null, null, 4, null, null, null, 5, null, null, 8, null, 19], "operator": "+","answer": [1,0,2,4,1,2,6,3,8,11]}
+  ],
+  "game_mode" : "pyramid_puzzle",
+  "unlock_criteria" : 15,
+  "hint_interval": 9
+}

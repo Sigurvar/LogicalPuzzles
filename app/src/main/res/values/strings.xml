@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Logical Puzzles</string>
+    <!-- button names-->
+    <string name="settings">Settings</string>
+    <string name="statistics">Statistics</string>
+    <string name="game_modes">Game modes</string>
+    <string name="play">Play</string>
+    <string name="reset_progress">Reset All Progress</string>
+    <!-- popup strings-->
+    <string name="correct">Correct!</string>
+    <string name="wrong">That"'"s not it</string>
+    <string name="all_levels_completed">All levels completed</string>
+    <string name="home">Home</string>
+    <string name="try_again">Try again</string>
+    <string name="next_level">Next Level</string>
+    <string name="more_levels">More levels</string>
+    <string name="locked">Complete more levels to unlock</string>
+    <string name="got_it">I Got It!</string>
+    <string name="good_job">Good Job! That was a though one</string>
+    <string name="good_job_with_hint">Good Job! You earned a coin for completing this level!</string>
+    <string name="not_correct">You suck!! </string>
+    <string name="out_of_clicks">Out of clicks!</string>
+    <string name="that_was_close">That was close!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="reset_progress_verification">This will reset all progress, are you sure you want to do it?</string>
+    <string name="progress_deleted">All progress deleted</string>
+    <!-- Hints -->
+    <string name="hint_header">Hints</string>
+    <string name="pyramid_puzzle_show_operator">The operator is:</string>
+    <string name="pyramid_all_boxes_filled">All boxes have numbers in them, clear some and try again</string>
+    <string name="can_not_afford">You do not have enough coins to unlock this hint</string>
+    <string name="fill_one_number">Fill in one missing number</string>
+    <string name="pyramid_puzzle_show_operator_hint">Show operator (+, -, *)</string>
+    <string name="one_column_in_right_position">Set one column in right position</string>
+    <string name="show_pattern">Show pattern used on the figures</string>
+    <!-- on game screen-->
+    <string name="pattern">Pattern:</string>
+    <string name="clicks_left">Clicks left:</string>
+    <string name="level">Level</string>
+    <string name="answer">Answer</string>
+    <!-- before modes -->
+    <string name="small">Small </string>
+    <string name="medium">Medium </string>
+    <string name="large">Large </string>
+    <string name="enormous">Enormous </string>
+    <string name="gigantic">Gigantic </string>
+    <string name="easy">Easy </string>
+    <string name="simple">Simple </string>
+    <string name="hard">Hard </string>
+    <string name="extreme">Extreme </string>
+    <string name="expert">Expert </string>
+    <!-- modes -->
+    <string name="pyramid_puzzles">Pyramid Puzzles </string>
+    <string name="pattern_puzzles">Pattern Puzzles </string>
+    <string name="next_number_puzzles">Next Number Puzzles </string>
+    <string name="make_them_green_puzzles">Make Them Green Puzzles </string>
+    <string name="sudoku_puzzles">Sudoku</string>
+    <string name="four_color_puzzles">Map Coloring</string>
+    <string name="equation_puzzles">Equation Puzzles</string>
+    <string name="hashi_puzzles">Hashi Puzzles</string>
+    <string name="order_puzzle">Sorting Puzzles</string>
+    <string name="color_switching_puzzle">Color Switching Puzzles</string>
+    <string name="path_switching_puzzle">Path Puzzles</string>
+    <!-- info strings-->
+    <string name="pyramid_puzzles_info">Fill in the empty boxes with the missing numbers.
+        All numbers are a combination of the two numbers below it. The two numbers below can be combined with +, - and *.
+        You have to figure out which of +, - and * is used and then fill in the empty boxes.
+    </string>
+    <string name="pattern_puzzles_info">In this game you have to figure what number should replace the ?.
+        All the figures follow the same rules, but are filled with different numbers.</string>
+    <string name="next_number_puzzles_info">In this game you have to figure out what the next number is.
+        The numbers are all in the same series and in correct order, you have to find the next number in the series.</string>
+    <string name="make_them_green_puzzles_info">The goal of this game is to make every circle green.
+        The white circles in the pattern tells you which circles will change color according to where you press.
+        The red circle in the pattern indicates which circle is pressed.
+        Try to make all the circles green with the given amount of clicks.
+    </string>
+    <string name="sudoku_puzzles_info">Classical Sudoku. Fill in the empty squares so that every row,
+        column and box contains all the numbers from 1–9.</string>
+    <string name="four_color_puzzles_info">This game requires you to color every field with the give colors.
+        The only rule is that two adjacent fields cannot have the same color.</string>
+    <string name="equation_puzzle_info">Fill in the empty boxes with numbers so that all equations are valid.</string>
+    <string name="hashi_puzzle_info">The goal of this gamemode is to draw lines between all the boxes so that every
+        box has the same amount of lines connected to it as the number inside it.\n
+        Click on two boxes to draw lines between them, lines can only be straight and can not cross another line.
+        Two boxes can maximum have two lines between them.\nClick on a line in order to remove it.</string>
+    <string name="order_puzzle_info">Arrange the columns so that every row has numbers in increasing order. The columns can be moved up and down by pressing the arrows</string>
+    <string name="color_switching_puzzle_info">Gather the boxes so that all the boxes with the same color is connected each other</string>
+    <string name="path_switching_puzzle_info">Draw a line between the two black boxes and by moving the pieces around, a piece can only be moved into the empty spot.</string>
+    <!-- other -->
+    <string name="welcome">Welcome to Logical Puzzles</string>
+    <string name="auto_complete_level">Auto complete level</string>
+</resources>

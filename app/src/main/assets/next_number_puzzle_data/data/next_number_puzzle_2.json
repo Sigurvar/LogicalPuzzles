@@ -1,0 +1,8 @@
+{
+  "levels": [
+    {"comment": "Level 2", "level":[1,1,2,3,5,8,13], "ans": 21},
+    {"comment": "Level 3", "level":[0,1,5,19], "ans": 65}
+  ],
+  "unlock_criteria" : 0,
+  "hint_interval": 3
+}

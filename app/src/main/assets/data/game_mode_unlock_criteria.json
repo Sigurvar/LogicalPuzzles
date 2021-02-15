@@ -1,0 +1,13 @@
+{
+  "pyramid_puzzle" : 0,
+  "make_them_green_puzzle" : 0,
+  "next_number_puzzle" : 0,
+  "pattern_puzzle" : 0,
+  "sudoku_puzzle"  : 0,
+  "four_colors_puzzle" : 0,
+  "equation_puzzle" : 0,
+  "hashi_puzzle" : 0,
+  "order_puzzle" : 0,
+  "color_switching_puzzle" : 0,
+  "path_switching_puzzle" : 0
+}

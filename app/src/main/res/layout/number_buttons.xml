@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="3"
+    android:layout_margin="10dp">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+        <Button
+            style="@style/number_button"
+            android:text="1" />
+
+        <Button
+            style="@style/number_button"
+            android:text="2" />
+
+        <Button
+            style="@style/number_button"
+            android:text="3" />
+
+        <ImageButton
+            style="@style/number_button"
+            android:src="@drawable/ic_enter"
+            android:onClick="checkAnswer"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+        <Button
+            style="@style/number_button"
+            android:text="4" />
+
+        <Button
+            style="@style/number_button"
+            android:text="5" />
+
+        <Button
+            style="@style/number_button"
+            android:text="6" />
+
+        <ImageButton
+            style="@style/number_button"
+            android:src="@drawable/ic_clear"
+            android:onClick="clearBox"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            style="@style/number_button"
+            android:text="7" />
+
+        <Button
+            style="@style/number_button"
+            android:text="8" />
+
+        <Button
+            style="@style/number_button"
+            android:text="9" />
+
+        <Button
+            style="@style/number_button"
+            android:text="0" />
+    </TableRow>
+
+</TableLayout>

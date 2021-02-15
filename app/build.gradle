@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 28
+
+
+    defaultConfig {
+        applicationId "com.example.logicalpuzzles"
+        minSdkVersion 26
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+    sourceSets {
+        main {
+            res {
+                srcDirs 'src/main/res',
+                        'src/main/res/popup',
+                        'src/main/res/selector',
+                        'src/main/res/game_mode_resources/sudoku_puzzle',
+                        'src/main/res/game_mode_resources/equation_puzzle',
+                        'src/main/res/game_mode_resources/four_color_puzzle',
+                        'src/main/res/game_mode_resources/hashi_puzzle',
+                        'src/main/res/game_mode_resources/make_them_green_puzzle',
+                        'src/main/res/game_mode_resources/next_number_puzzle',
+                        'src/main/res/game_mode_resources/order_puzzle',
+                        'src/main/res/game_mode_resources/pattern_puzzle',
+                        'src/main/res/game_mode_resources/pyramid_puzzle',
+                        'src/main/res/game_mode_resources/switching_puzzles'
+            }
+            java {
+                srcDirs 'src/main/java'
+            }
+            assets {
+                srcDirs 'src/main/assets', 'src/main/assets/equation_puzzle_data', 'src/main/assets/order_puzzle_data', 'src/main/assets/hashi_puzzle_data', 'src/main/assets/make_them_green_puzzle_data', 'src/main/assets/next_number_puzzle_data', 'src/main/assets/pattern_puzzle_data', 'src/main/assets/pyramid_puzzla_data', 'src/main/assets/sudoku_puzzle_data', 'src/main/assets/four_color_puzzle_data', 'src/main/assets/color_switching_puzzle_data', 'src/main/assets/path_switching_puzzle_data'
+            }
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.android.support:design:28.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
+    mavenCentral()
+}

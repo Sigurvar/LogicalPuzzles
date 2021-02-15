@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.logicalpuzzles">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".gamemodes.switchingPuzzles.colorSwitchingPuzzle.ColorSwitchingPuzzle"/>
+        <activity android:name=".gamemodes.switchingPuzzles.pathSwitchingPuzzle.PathSwitchingPuzzle"/>
+        <activity android:name=".gamemodes.orderPuzzle.OrderPuzzle" />
+        <activity android:name=".sideActivities.SettingsScreen" />
+        <activity android:name=".gamemodes.hashiPuzzle.HashiPuzzle" />
+        <activity android:name=".gamemodes.equationpuzzle.EquationPuzzle" />
+        <activity android:name=".gamemodes.fourColorPuzzle.FourColorsPuzzle" />
+        <activity android:name=".gamemodes.sudokuPuzzle.SudokuPuzzle" />
+        <activity android:name=".gamemodes.PatternPuzzle" />
+        <activity android:name=".gamemodes.NextNumberPuzzle" />
+        <activity android:name=".gamemodes.makeThemGreenPuzzle.dummytest" />
+        <activity android:name=".gamemodes.makeThemGreenPuzzle.MakeThemGreenPuzzle" />
+        <activity android:name=".selectors.SubGameModeSelector" />
+        <activity android:name=".selectors.LevelSelector" />
+        <activity android:name=".selectors.GameModeSelector" />
+        <activity android:name=".gamemodes.pyramidPuzzle.PyramidPuzzle" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

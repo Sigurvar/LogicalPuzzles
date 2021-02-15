@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:stretchColumns="*">
+
+    <TableRow>
+        <TextView
+            style="@style/sudoku_small_text_view"
+
+            android:id="@+id/id1"/>
+        <TextView
+            style="@style/sudoku_small_text_view"
+            android:id="@+id/id2"/>
+        <TextView
+            style="@style/sudoku_small_text_view"
+            android:id="@+id/id3"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            style="@style/sudoku_small_text_view"
+            android:id="@+id/id4"/>
+        <TextView
+            style="@style/sudoku_small_text_view"
+            android:id="@+id/id5"/>
+        <TextView
+            style="@style/sudoku_small_text_view"
+            android:id="@+id/id6"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            style="@style/sudoku_small_text_view"
+            android:id="@+id/id7"/>
+        <TextView
+            style="@style/sudoku_small_text_view"
+            android:id="@+id/id8"/>
+        <TextView
+            style="@style/sudoku_small_text_view"
+            android:id="@+id/id9"/>
+    </TableRow>
+</TableLayout>
