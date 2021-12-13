@@ -15,6 +15,7 @@ import android.widget.TableRow;
 
 import com.example.logicalpuzzles.R;
 import com.example.logicalpuzzles.gamemodes.PatternPuzzle;
+import com.example.logicalpuzzles.gamemodes.makeThemGreenPuzzle_v2.MakeThemGreenPuzzle_v2;
 import com.example.logicalpuzzles.gamemodes.switchingPuzzles.colorSwitchingPuzzle.ColorSwitchingPuzzle;
 import com.example.logicalpuzzles.gamemodes.fourColorPuzzle.FourColorsPuzzle;
 import com.example.logicalpuzzles.gamemodes.NextNumberPuzzle;
@@ -121,6 +122,9 @@ public class LevelSelector extends Selector {
         }
         else if (subGameMode.contains("path_switching_puzzle")){
             intent = new Intent(this, PathSwitchingPuzzle.class);
+        }
+        else if (subGameMode.contains("v2")){
+            intent = new Intent(this, MakeThemGreenPuzzle_v2.class);
         }
         else {
             intent = new Intent(this, MakeThemGreenPuzzle.class);

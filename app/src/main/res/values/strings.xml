@@ -91,4 +91,5 @@
     <!-- other -->
     <string name="welcome">Welcome to Logical Puzzles</string>
     <string name="auto_complete_level">Auto complete level</string>
+    <string name="make_them_green_puzzles_v2">Make them green v2</string>
 </resources>

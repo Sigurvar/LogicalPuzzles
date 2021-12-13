@@ -1,0 +1,8 @@
+{
+  "levels": [
+    {"comment": "Level 1, 1 klikk", "level":[0,1,1,1,0,1,1,1,0], "maxClicks": 3},
+    {"comment": "Level 2, 2 klikk", "level":[0,1,1,1,1,1,1,1,0], "maxClicks": 4}
+  ],
+  "unlock_criteria" : 0,
+  "hint_interval": 10
+}

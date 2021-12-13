@@ -20,6 +20,7 @@ public class GameModeSelector extends Selector {
         modefigures = new HashMap<>();
         modefigures.put("pyramid_puzzle", R.drawable.logo_pyramid_puzzle);
         modefigures.put("make_them_green_puzzle", R.drawable.logo_make_them_green_puzzle);
+        modefigures.put("make_them_green_puzzle_v2", R.drawable.logo_make_them_green_puzzle_v2);
         modefigures.put("next_number_puzzle", R.drawable.logo_next_number);
         modefigures.put("pattern_puzzle", R.drawable.logo_pattern_puzzle);
         modefigures.put("sudoku_puzzle", R.drawable.logo_sudoku);

@@ -83,6 +83,9 @@ public class SubGameModeSelector extends Selector {
             case "make_them_green_puzzle_5.json":
                 display = getString(R.string.expert) + " " + getString(R.string.make_them_green_puzzles);
                 break;
+            case "make_them_green_puzzle_v2_1.json":
+                display = getString(R.string.easy) + " " + getString(R.string.make_them_green_puzzles_v2);
+                break;
             case "next_number_puzzle":
                 display = getString(R.string.next_number_puzzles);
                 break;

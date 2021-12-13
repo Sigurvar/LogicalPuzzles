@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gamemodes.makeThemGreenPuzzle.MakeThemGreenPuzzle">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="20">
+        <include layout="@layout/top_bar_for_game_modes"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:weightSum="5"
+            android:orientation="vertical"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:text="@string/clicks_left"/>
+
+                <TextView
+                    android:id="@+id/clicksLeftView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="45sp"
+                    android:textColor="@color/red"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="3dp">
+                </TextView>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:weightSum="4">
+
+                        <ImageButton
+                            android:id="@+id/row"
+                            android:src="@drawable/make_them_green_puzzle_v2_row"
+                            android:background="@android:color/transparent"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:onClick="switchDirection"/>
+                        <ImageButton
+                            android:id="@+id/column"
+                            android:src="@drawable/make_them_green_puzzle_v2_column"
+                            android:background="@android:color/transparent"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:onClick="switchDirection"/>
+                        <ImageButton
+                            android:id="@+id/right_down"
+                            android:src="@drawable/make_them_green_puzzle_v2_right_down_diagonal"
+                            android:background="@android:color/transparent"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:onClick="switchDirection"/>
+                        <ImageButton
+                            android:id="@+id/right_up"
+                            android:src="@drawable/make_them_green_puzzle_v2_right_up_diagonal"
+                            android:background="@android:color/transparent"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:onClick="switchDirection"/>
+                </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12">
+            <TableLayout
+                android:id="@+id/tableLayoutMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="3dp">
+            </TableLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

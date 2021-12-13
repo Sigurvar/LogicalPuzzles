@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="150.0"
+    android:viewportHeight="150.0">
+    <!-- Three dots -->
+    <path
+        android:fillColor="#FFF"
+        android:pathData="M23,23 m-3,0a3,3 0,0 1,6 0a3,3 0,1 1,-6 0"/>
+    <path
+        android:fillColor="#FFF"
+        android:pathData="M29,29 m-3,0a3,3 0,0 1,6 0a3,3 0,1 1,-6 0"/>
+    <path
+        android:fillColor="#FFF"
+        android:pathData="M35,35 m-3,0a3,3 0,0 1,6 0a3,3 0,1 1,-6 0"/>
+    <!-- Three main -->
+
+    <path
+        android:fillColor="#FFF"
+        android:pathData="M55,55m-10,0a10,10 0,0 1,20 0a10,10 0,1 1,-20 0"/>
+    <path
+        android:fillColor="#FFF"
+        android:strokeColor="#FF0000"
+        android:strokeWidth="2"
+        android:pathData="M75,75m-10,0a10,10 0,0 1,20 0a10,10 0,1 1,-20 0"/>
+    <path
+        android:fillColor="#FFF"
+        android:pathData="M95,95m-10,0a10,10 0,0 1,20 0a10,10 0,1 1,-20 0"/>
+    <!-- Three dots -->
+    <path
+        android:fillColor="#FFF"
+        android:pathData="M115,115m-3,0a3,3 0,0 1,6 0a3,3 0,1 1,-6 0"/>
+    <path
+        android:fillColor="#FFF"
+        android:pathData="M121,121m-3,0a3,3 0,0 1,6 0a3,3 0,1 1,-6 0"/>
+    <path
+        android:fillColor="#FFF"
+        android:pathData="M127,127m-3,0a3,3 0,0 1,6 0a3,3 0,1 1,-6 0"/>
+</vector>

@@ -9,6 +9,7 @@
     <color name="blue">#0000FF</color>
     <color name="yellow">#FFFF00</color>
     <color name="orange">#FFA500</color>
+    <color name="grey">#999</color>
     <color name="low_opacity_black">#3F000000</color>
     <color name="standard_background">#666666</color>
     <color name="lighter_background">#777777</color>
