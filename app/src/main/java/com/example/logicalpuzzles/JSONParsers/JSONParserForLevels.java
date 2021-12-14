@@ -54,11 +54,11 @@ public class JSONParserForLevels extends JSONParser{
         }
         return null;
     }
-    public List<List<List<Integer>>> getDoubleNestedArrayList(String obejctName, int levelID){
+    public List<List<List<Integer>>> getDoubleNestedArrayList(String objectName, int levelID){
         List<List<List<Integer>>> array = new ArrayList<>();
         try{
             JSONObject jsonLevel = super.array.getJSONObject(levelID-1);
-            JSONArray level = (JSONArray)jsonLevel.get(obejctName);
+            JSONArray level = (JSONArray)jsonLevel.get(objectName);
             for(int i=0;i<level.length();i++){
                 List<List<Integer>> inner = new ArrayList<>();
                 for (int j=0;j<((JSONArray)level.get(i)).length();j++){
