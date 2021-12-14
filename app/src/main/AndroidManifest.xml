@@ -20,6 +20,7 @@
         <activity android:name=".gamemodes.NextNumberPuzzle" />
         <activity android:name=".gamemodes.makeThemGreenPuzzle.dummytest" />
         <activity android:name=".gamemodes.makeThemGreenPuzzle.MakeThemGreenPuzzle" />
+        <activity android:name=".gamemodes.makeThemGreenPuzzle_v2.MakeThemGreenPuzzle_v2" />
         <activity android:name=".selectors.SubGameModeSelector" />
         <activity android:name=".selectors.LevelSelector" />
         <activity android:name=".selectors.GameModeSelector" />
