@@ -5,29 +5,30 @@ import androidx.core.content.ContextCompat;
 
 import com.example.logicalpuzzles.R;
 
-class MakeThemGreenCircle {
+public class MakeThemGreenCircle {
 
-    int posX;
-    int posY;
+
+    public int posX;
+    public int posY;
     private int value;
     private ImageView iv;
 
-    MakeThemGreenCircle(int posX, int posY, ImageView iv){
+    public MakeThemGreenCircle(int posX, int posY, ImageView iv){
         this.posX=posX;
         this.posY=posY;
         this.iv=iv;
         value=0;
     }
-    int getValue(){return value;}
-    void setValue(int value){
+    public int getValue(){return value;}
+    public void setValue(int value){
         this.value = value;
         changeColor();
     }
-    void increaseValue(){
+    public void increaseValue(){
         this.value = (this.value+1)%2;
         changeColor();
     }
-    void setCorrect(){
+    public void setCorrect(){
         if (this.value==0){
             this.value=1;
             changeColor();

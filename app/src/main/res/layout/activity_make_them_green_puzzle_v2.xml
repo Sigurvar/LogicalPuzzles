@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".gamemodes.makeThemGreenPuzzle.MakeThemGreenPuzzle">
+    tools:context=".gamemodes.makeThemGreenPuzzle_v2.MakeThemGreenPuzzle_v2">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -52,6 +53,7 @@
                             android:background="@android:color/transparent"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
+                            android:tintMode="multiply"
                             android:layout_weight="1"
                             android:onClick="switchDirection"/>
                         <ImageButton
@@ -61,7 +63,9 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:onClick="switchDirection"/>
+                            android:tintMode="multiply"
+                            android:onClick="switchDirection"
+                            android:tint="@color/grey" />
                         <ImageButton
                             android:id="@+id/right_down"
                             android:src="@drawable/make_them_green_puzzle_v2_right_down_diagonal"
@@ -69,15 +73,19 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:onClick="switchDirection"/>
+                            android:tintMode="multiply"
+                            android:onClick="switchDirection"
+                            android:tint="@color/grey" />
                         <ImageButton
                             android:id="@+id/right_up"
                             android:src="@drawable/make_them_green_puzzle_v2_right_up_diagonal"
                             android:background="@android:color/transparent"
                             android:layout_width="0dp"
+                            android:tintMode="multiply"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:onClick="switchDirection"/>
+                            android:onClick="switchDirection"
+                            android:tint="@color/grey" />
                 </LinearLayout>
 
 

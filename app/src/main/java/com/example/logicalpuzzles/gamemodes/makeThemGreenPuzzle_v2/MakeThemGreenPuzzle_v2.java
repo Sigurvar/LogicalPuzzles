@@ -1,7 +1,9 @@
 package com.example.logicalpuzzles.gamemodes.makeThemGreenPuzzle_v2;
 
 import android.annotation.SuppressLint;
+import android.content.res.ColorStateList;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.ContextThemeWrapper;
 import android.view.View;
 import android.widget.ImageButton;
@@ -24,10 +26,8 @@ import java.util.List;
 
 public class MakeThemGreenPuzzle_v2 extends GameController{
     private List<List<Integer>> pattern;
-    private ImageButton activeDirection;
+    private ImageView activeDirection;
     private List<Integer> activeDirectionNumbers; // [x,y]
-    //private List<>//
-    //private HashMap<String, List<Integer>> directions = new HashMap<>();
     private List<MakeThemGreenCircle> buttons;
     private int levelSize=0;
     private HashMap<View, MakeThemGreenCircle> ids;
@@ -36,14 +36,9 @@ public class MakeThemGreenPuzzle_v2 extends GameController{
     private int currentClicks;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setContentView(R.layout.activity_make_them_green_puzzle);
+        setContentView(R.layout.activity_make_them_green_puzzle_v2);
         super.onCreate(savedInstanceState);
         clicksLeftView = findViewById(R.id.clicksLeftView);
-        // TODO: Instansiate hashmap earlier
-        /*directions.put("ROW", Arrays.asList(1,0));
-        directions.put("COLUMN", Arrays.asList(0,1));
-        directions.put("LEFT_DOWN_DIAGONAL", Arrays.asList(1,1));
-        directions.put("RIGHT_UP_DIAGONAL", Arrays.asList(1,-1));*/
         setLevelInfo();
         setMap();
     }
@@ -52,9 +47,7 @@ public class MakeThemGreenPuzzle_v2 extends GameController{
     protected void setLevelInfo(){
         maxClicks = parser.getInt("maxClicks", levelID);
         activeDirection = findViewById(R.id.row);
-        activeDirectionNumbers = Arrays.asList(1,0);
-        //List<Integer> newPattern = parser.getObjectInfo("pattern", levelID);
-        //setPattern(newPattern);
+        activeDirectionNumbers = Arrays.asList(0,1);
     }
     @Override
     public void wrongAns(View view) {
@@ -71,44 +64,11 @@ public class MakeThemGreenPuzzle_v2 extends GameController{
         setMap();
     }
 
-    /*void setPattern(List<Integer> pattern){
-        this.pattern = new ArrayList<>();
-        int size = (int) Math.sqrt(pattern.size());
-        int middle = (pattern.size()-1)/2;
-        setParams(0.07, 0.04, 5);
-        TableLayout table = findViewById(R.id.tableLayoutPattern);
-        table.removeAllViews();
-        TableRow tr;
-        for (int i=0; i<size;i++){
-            tr = new TableRow(this);
-            table.addView(tr);
-            for (int j=0;j<size;j++){
-                ImageView button =  new ImageView(this);
-                button.setImageResource(R.drawable.make_them_green_circle);
-
-                if (i*3+j==middle){
-                    if (pattern.get(i*3+j)==1){
-                        button.setImageResource(R.drawable.make_them_green_circle_middle_on);
-                        this.pattern.add(new ArrayList<Integer>(Arrays.asList(i-(size-1)/2,j-(size-1)/2)));
-                    }
-                    else {
-                        button.setImageResource(R.drawable.make_them_green_circle_middle);
-                    }
-                }
-                else if (pattern.get(i*3+j)==1){
-                    button.setColorFilter(ContextCompat.getColor(this, R.color.white));
-                    this.pattern.add(new ArrayList<Integer>(Arrays.asList(j-(size-1)/2, i-(size-1)/2)));
-                }
-                button.setLayoutParams(this.params);
-                tr.addView(button);
-            }
-        }
-    }*/
     @SuppressLint("NonConstantResourceId")
     public void switchDirection(View view){
-        activeDirection.setColorFilter(R.color.grey);
-        activeDirection = (ImageButton) view;
-        activeDirection.setColorFilter(R.color.white);
+        activeDirection.setImageTintList(ColorStateList.valueOf(ContextCompat.getColor(getApplicationContext(), R.color.grey)));
+        activeDirection = (ImageView) view;
+        activeDirection.setImageTintList(null);
         int id = view.getId();
         switch (id){
             case R.id.row:
@@ -175,8 +135,8 @@ public class MakeThemGreenPuzzle_v2 extends GameController{
                 int pos = row*levelSize+column;
                 // TODO: Switchvalue???
                 buttons.get(pos).increaseValue();
-                column = x +activeDirectionNumbers.get(0)*i;
-                row = y+activeDirectionNumbers.get(1)*i;
+                column  += activeDirectionNumbers.get(0)*i;
+                row += activeDirectionNumbers.get(1)*i;
             }
         }
         int pos = y*levelSize+x;
